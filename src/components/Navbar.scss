@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 5%;
+
+    button {
+        all: unset;
+
+        &:hover {
+            cursor: pointer;
+            scale: 1.1;
+        }
+    }
+
+    .left {
+       display: flex;
+       gap: 15px;
+    }
+}

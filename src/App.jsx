@@ -1,13 +1,12 @@
-import react from 'react'
-import './App.css'
+import "./layout.scss";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-    <>
-     <h1>API Data Manipulation Practice</h1>
-    </>
-  )
+    <div className="layout">
+      <Navbar />
+    </div>
+  );
 }
 
-export default App
+export default App;
